@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/filter.css">
+  <link rel="stylesheet" href="./css/filterQueries.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <title>Animal Lovers</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="./index.html" class="header-logo">
+      <i class="fa fa-apple header-logo-apple"></i>
+    </a>
+    <h2 class="header-text">Animal Lovers</h2>
+    <nav>
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+      </span>
+      <ul class="navbar" id="js-menu">
+        <div class="navbar__links">
+          <li class="home-link"><a href="./index.html"> <i class="fa fa-home home-icon"></i></a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="table">
+    <div class="row">
+      <div class="table-col checkbox">
+        <label class="container">Praha
+          <input type="checkbox" id="praha" class="checkboxFilter">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Ostrava
+          <input type="checkbox" id="ostrava" class="checkboxFilter">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Brno
+          <input type="checkbox" id="brno" class="checkboxFilter">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+
+      <table class="table-col">
+        <thead>
+          <tr>
+            <th>Jmeno</th>
+            <th>Mesto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jan Novák</td>
+            <td data-town="praha" class="town">Praha</td>
+          </tr>
+          <tr>
+            <td>Petr Dlouhý</td>
+            <td data-town="ostrava" class="town">Ostrava</td>
+          </tr>
+          <tr>
+            <td>Filip Mazaný</td>
+            <td data-town="brno" class="town">Brno</td>
+          </tr>
+          <tr>
+            <td>Jaroslav Velký</td>
+            <td data-town="praha" class="town"> Praha</td>
+          </tr>
+          <tr>
+            <td>Dan Nový</td>
+            <td data-town="brno" class="town">Brno</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="footer-col">
+        <div class="footer-nav">
+          <p>
+            Copyright &copy; 2012 Animal Lovers
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/Torrismile/"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/vi.faerie/"><i class="fa fa-instagram"></i></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/filter.js"></script>
+</body>
+
+</html>

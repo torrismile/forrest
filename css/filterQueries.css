@@ -1,0 +1,226 @@
+
+/*-----------MEDIA QUERIES------------------*/
+
+/* big tablets to 1200 px */
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        position: absolute;
+        top: 2%;
+        right: 5%;
+    }
+
+    .navbar li a i {
+        font-size: 150%;
+    }
+
+    .header-text {
+        position: absolute;
+        left: 16%;
+        top: 2%;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 110%;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 8%;
+        top: 2%;
+        font-size: 125%;
+        margin-top: 18px;
+    }
+
+    .header-logo i {
+        font-size: 150%;
+    }
+
+    .table {
+        padding: 2rem;
+    }
+}
+
+/* small tablets to big tablets fron 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+
+    .navbar {
+        position: absolute;
+        top: 1%;
+        right: 5%;
+    }
+
+    .header-text {
+        position: absolute;
+        left: 16%;
+        top: 1.5%;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 110%;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 8%;
+        top: 1.3%;
+        font-size: 125%;
+        margin-top: 18px;
+    }
+}
+
+/* small phones to small tablets from 481px to 767px*/
+@media only screen and  (max-width: 767px) {
+
+    .navbar {
+        position: absolute;
+        top: -0.3%;
+        right: 3%;
+    }
+
+    .navbar li a i {
+        font-size: 100%;
+    }
+
+
+    .header-text {
+        position: absolute;
+        left: 16%;
+        top: -0.3%;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 110%;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 6%;
+        top: -0.3%;
+        font-size: 125%;
+        margin-top: 18px;
+    }
+
+    .header-logo i {
+        font-size: 100%;
+    }
+
+    .table {
+        height: 125vh;
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .table-col {
+        width: 100%;
+    }
+      
+    .table-col:not(:last-child) {
+        margin-right: 0;
+    }
+
+
+    table thead {
+        display: none;
+    }
+
+    table, tbody, th, td, tr { 
+        display: block; 
+        width: 100%;
+    }
+
+    table th, table td {
+        padding: 15px;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+    }
+
+    table td {
+        text-align: right;
+        padding-left: 50%;
+    }
+
+    .checkbox {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+      
+    .container {
+        display: inline-block;
+        text-align: center;
+        padding-top: 0;
+        padding-right: 10px;
+    }
+
+    .footer-nav {
+        text-align: center;
+        float: none;
+    }
+
+    footer {
+        background-color: #555;
+        padding: 2rem;
+    }
+    
+    .footer-col {
+        width: 100%;
+        float: none;
+    }
+    
+    .footer-col:not(:last-child) {
+        margin-right: 0;
+    }
+    
+    .footer-nav {
+        list-style-type: none;
+        float: none;
+    }
+    
+    .footer-nav p {
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+
+    .social-links {
+        list-style-type: none;
+        float: none;
+        text-align: center;
+    }
+
+    .social-links li {
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* small phones fron 0 to 480px*/
+@media only screen and (max-width: 321px) {
+
+    .navbar {
+        position: absolute;
+        top: -1%;
+        right: 1%;
+    }
+
+    .header-text {
+        position: absolute;
+        left: 16%;
+        top: -1.3%;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 110%;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 6%;
+        top: -1.3%;
+        font-size: 125%;
+        margin-top: 18px;
+    }
+
+    .table {
+        height: 130vh;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}

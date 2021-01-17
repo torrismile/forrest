@@ -1,0 +1,269 @@
+
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;    
+  font-weight: 300;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+header {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10vh;
+}
+
+h2 {
+  font-size: 120%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 300;
+}
+
+
+.header-text {
+  position: absolute;
+  left: 20%;
+  top: 8px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.header-logo {
+  position: absolute;
+  left: 17%;
+  top: 8px;
+  font-size: 150%;
+  margin-top: 18px;
+}
+
+.navbar {
+  position: absolute;
+  right: 10%;
+  top: 8px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+  -webkit-transition: border-bottom 0.3s;
+  width: 100%;
+  position: relative;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  border-bottom: 2px solid yellow;
+}
+
+.navbar li a i {
+  font-size: 150%;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.home-icon {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.2em 0.5em;
+  color: #000;
+  background-color: #fff;
+}
+
+.home-link {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  list-style: none !important;
+}
+
+.home-link a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  list-style: none !important;
+}
+
+.header-logo-apple {
+  color: #fff;
+}
+
+/* ---------------------------------------- */
+/* TABLE */
+/* ---------------------------------------- */
+
+.table {
+  width: 100%;
+  height: 80vh;
+	display: block;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.table-col {
+  width: calc((100% - 3rem) / 2);
+}
+
+.table-col:not(:last-child) {
+  margin-right: 3rem;
+}
+
+table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 40px;
+  border: 2px solid #555;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+tr:nth-child(even){background-color: #b8b6b6;
+}
+
+tr:nth-child(odd){background-color: #f3f2f2;
+}
+
+.checkbox {
+  margin-top: 40px;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.table-col {
+  width: calc((100% - 3rem) / 2);
+  float: left;
+}
+
+.table-col:not(:last-child) {
+  margin-right: 3rem;
+}
+
+/* ---------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------- */
+
+footer {
+  background-color: #555;
+  padding: 3rem;
+}
+
+.footer-col {
+  width: calc((100% - 2rem) / 2);
+  float: left;
+}
+
+.footer-col:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.footer-nav {
+  list-style-type: none;
+  float: left;
+}
+
+.footer-nav p {
+  font-size: 100%;
+  margin-bottom: 0;
+  color: #888;
+}
+
+.social-links {
+  list-style-type: none;
+  float: right;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links i {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 100%;
+}
+
+.fa-facebook {
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+}

@@ -10,7 +10,7 @@
 
 html,
 body {
-    background-color: var(--mainWhite);
+    background-color: #fff;
     font-family: 'Open Sans', sans-serif;    
     font-weight: 300;
     font-size: 20px;
@@ -228,7 +228,7 @@ header {
 .navbar li a:link,
 .navbar li a:visited {
     list-style: none;
-    color: var(--mainGrey);
+    color: #fff;
     text-decoration: none;
     font-size: 90%;
     border-bottom: 1px solid transparent;
@@ -254,6 +254,18 @@ header {
     padding: 0.2em 0.5em;
     color: #000;
     background-color: #fff;
+}
+
+.home-link {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    list-style: none !important;
+}
+
+.home-link a:hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    list-style: none !important;
 }
 
 .header-logo-apple {
@@ -608,8 +620,7 @@ footer {
     font-size: 100%;
 }
 
-.fa-facebook,
-.fa-google-plus {
+.fa-facebook {
     transition: color 0.2s;
     -webkit-transition: color 0.2s;
 }
