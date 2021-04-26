@@ -468,12 +468,12 @@
         margin-top: 2rem;
     }
 
-    .navbar__links li {
+    .navbar li {
         text-align: center;
         margin: 0 auto;
         padding-top: 12px;
         padding-bottom: 5px;
-        display: block;
+        display: block !important;
         font-size: 100%;
     }
 
@@ -481,7 +481,7 @@
         display: block;
         background-color: #000;
         width: 30%;
-        height: 45vh;
+        height: 55vh;
         z-index: 2;
     }
 }
@@ -576,7 +576,6 @@
         display: block;
         background-color: #000;
         width: 30%;
-        height: 50vh;
         z-index: 2;
     }
 }

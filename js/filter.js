@@ -13,7 +13,7 @@ checkboxFilters.forEach(function (checkboxFilter) {
     } else {
       filters = filters.split(',')
     }
-
+debugger;
     if (checkbox.checked == true) {
       filters.push(townName);
     } else {
@@ -22,7 +22,7 @@ checkboxFilters.forEach(function (checkboxFilter) {
         filters.splice(index)
       }
     }
-
+debugger;
     doFilter(filters);
 
     window.localStorage.setItem('townFilters', filters.join());
